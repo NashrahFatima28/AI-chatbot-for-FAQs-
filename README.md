@@ -25,3 +25,16 @@ A modern, responsive website with an integrated Dialogflow chatbot to answer fre
   agent-id="YOUR-AGENT-ID-HERE"
   language-code="en">
 </df-messenger>
+
+## ⚠️ Common Issues
+❌ Chatbot Not Loading?
+Make sure your Dialogflow agent is published.
+
+Replace YOUR-AGENT-ID-HERE with the correct agent ID from Dialogflow Messenger settings.
+
+Check browser console for CORS or embed issues.
+
+❌ Contact Form Alert Not Working?
+Ensure JavaScript is enabled.
+
+Verify form and field IDs match (#contactForm, #name, etc.).
