@@ -26,6 +26,26 @@ A modern, responsive website with an integrated Dialogflow chatbot to answer fre
   language-code="en">
 </df-messenger>
 
+## Try chatbot with the question like:
+## Examples:
+->Am I eligible for an internship?
+->Will I get a certificate?
+->Is there a stipend?
+->what kind of internship courses you offer?
+->Tell me about your company
+How do I contact you?
+Give me your contact details
+Who can I contact for more info?
+What's your support email?
+What kind of internship courses do you offer?
+Which internship programs are available?
+Tell me about your internship courses
+Do you offer internships in programming?
+What internships do you provide?
+What are the available internship categories?
+## more questions u can asked
+How do I apply for the internship?
+
 ## ⚠️ Common Issues
 ❌ Chatbot Not Loading?
 Make sure your Dialogflow agent is published.
