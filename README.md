@@ -1,6 +1,6 @@
 # AI-chatbot-for-FAQs-
 
-# 💬 Internship FAQ Chatbot Website
+# 💬 Internship FAQ Chatbot Using DialogFlow in GCP
 
 A modern, responsive website with an integrated Dialogflow chatbot to answer frequently asked questions about internships, applications, company info, and more.
 
