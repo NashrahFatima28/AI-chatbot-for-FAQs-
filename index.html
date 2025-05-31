@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Company | Internship Program</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+
+    
+</head>
+
+<body>
+
+    <header>
+        <h1>MicronIT</h1>
+        <p>Innovating Careers. Powering Internships.</p>
+    </header>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <p>We are a tech-driven company focused on nurturing young talent through impactful internship programs. Our
+            mission is to bridge the gap between academia and industry with real-world projects, mentorship, and
+            upskilling opportunities.</p>
+    </section>
+
+    <section class="internship">
+        <h2>Internship Program</h2>
+        <p>Our internship covers various domains like Software Development, Data Analytics, Marketing, and UI/UX.
+            Applicants from 1st to final year students are welcome to apply. All interns receive certifications and, for
+            selected roles, a performance-based stipend.</p>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <input type="email" id="email" placeholder="Your Email" required />
+            <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form></div>
+    </section>
+    <script src="script.js"></script>
+
+
+    <!-- Chatbot Section -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger intent="WELCOME" chat-title="FAQ-BOT" agent-id="e5e0a251-f2d4-4098-a965-196e203b74ae" language-code="en">
+    </df-messenger>
+
+    <footer>
+        © 2025 Your Company. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
